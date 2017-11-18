@@ -1,0 +1,63 @@
+<package>
+	<id>com.thecomputerwhisperer.DetailedCellularUsage</id>
+	<name>DetailedCellularUsage</name>
+	<version>2.0.3b</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<descriptionlist>
+		<description><![CDATA[
+			Did you know that the cellular data usage reported by iOS is inaccurate,</br>
+			and that Apple has been hiding some important details from you?]]>
+		</description>
+		<description><![CDATA[
+			Cellular data used by Apple's internal system apps and processes is hidden</br>
+			by default...but not for long once DCU is installed! In addition to fully</br>
+			revealing cellular data usage details, DCU also enables the ability to manage</br>
+			cell data access to select system apps, processes &amp; daemons - giving you</br>
+			even <u>more</u> control over how your data is used!]]>
+		</description>
+		<description><![CDATA[
+			DetailedCellularUsage is compatible with all cellular-capable iPhone's</br>
+			&amp; iPad's running iOS 8.x through 10.2 (tested on iOS 8.4, 9.0.2, 9.3.3,</br>
+			9.3.5, 10.1.1 &amp; 10.2).]]>
+		</description>
+		<description><![CDATA[
+			DCU is <b><i>enabled by default after installation</i></b>. You'll find a switch</br>
+			to enable/disable DCU on the default iOS Cellular Data page in the Settings app</br>
+			(bottom of the page). Enabling or disabling DCU will automatically trigger the</br>
+			cellular usage report to refresh.]]>
+		</description>
+		<description><![CDATA[
+			No respring is required after installation. Please contact me if you have any</br>
+			questions or need any additional information or support.]]>
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>App Cellular Usage Report: BEFORE and AFTER installing <b>DetailedCellularUsage</b></description>
+			<image>DCU2_APPS_LARGE.png</image>
+		</screenshot>		
+		<screenshot>
+			<description>System Cellular Usage Report: BEFORE and AFTER installing <b>DetailedCellularUsage</b></description>
+			<image>DCU2_PROCESSES_LARGE.png</image>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+		<change>Completely Rewritten, w/Support for iOS 8!</change>
+		<change>New seemless integration into Settings</change>
+		<change>Code cleanup and performance enhancements</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
+</package>
