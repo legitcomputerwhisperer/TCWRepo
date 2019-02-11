@@ -3,31 +3,98 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>iOS App URL Links</title>
+    <title>iOS Custom URL Schemes</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
   </head>
 
-  <h1>LINKS</h1>
+  <h1>CUSTOM URL SCHEMES</h1>
   
    <ul>
       <li>
-        <p><b><a href="prefs://root=General&path=STORAGE_MGMT">Launch Settings App #1</a></b></p>
-        <p><b><a href="prefs-finance-script:">Launch Settings App #2</a></b></p>
-        <p><b><a href="com.apple.preferences:">Launch Settings App #3</a></b></p>
-        <p><b><a href="App-prefs://root=com.amleszk.antenna">Launch Settings App #4</a></b></p>
-        <p><b><a href="itms-apps:">Launch App Store</a></b></p>
-        <p><b><a href="https://apple.news/">Launch Apple News App</a></b></p>
-        <p><b><a href="x-web-search:">Launch Safari App #1</a></b></p>
-        <p><b><a href="com-apple-mobilesafari-tab:">Launch Safari App #2</a></b></p>
-        <p><b><a href="itms-watch:">Launch Watch App</a></b></p>
-        <p><b><a href="calc:">Launch Calculator App</a></b></p>
-        <p><b><a href="mobilenotes:">Launch Notes App #1</a></b></p>
-        <p><b><a href="mobilenotes-quicknote:">Launch Notes App #2</a></b></p>
+        <p><b><a href="App-prefs://root=General">Settings #1</a></b></p>
+      </li>
+      <li>
+        <p><b><a href="prefs-finance-script://root/">Settings #2</a></b></p>
+      </li>
+      <li>
+        <p><b><a href="com.apple.preferences://root/">Settings #3</a></b></p>
+      </li>
+      <li>
+        <p><b><a href="App-prefs://root=com.amleszk.antenna">Settings #4</a></b></p>
+      </li>
+      <li>
+        <p><b><a href="itms-apps://root/">App Store</a></b></p>
+      </li>
+      <li>
+        <p><b><a href="https://apple.news/Ao5zibXcxTcSU3PLxZ6pmg/">Apple News</a></b></p>
+      </li>
+      <li>
+        <p><b><a href="x-web-search://ball">Safari</a></b></p>
+      </li>
+        <!-- <p><b><a href="com-apple-mobilesafari-tab:">Launch Safari App #2</a></b></p> -->
+      <li>
+        <p><b><a href="itms-watch://root">Watch App</a></b></p>
+      </li>
+        <!-- <p><b><a href="calc:">Launch Calculator App</a></b></p> -->
+        <!-- <p><b><a href="mobilenotes://root">Launch Notes App #1</a></b></p>
+        <p><b><a href="mobilenotes-quicknote:">Launch Notes App #2</a></b></p> -->
+      <li>
+        <p><b><a href="x-apple-calevent://root/">Calendar #1</a></b></p>
+      </li>
+      <li>   
+        <p><b><a href="calshow://root/">Calendar #2</a></b></p>
+      </li>
+      <li>
+        <p><b><a href="shareddocuments://root/">Files</a></b></p>
+      </li>
+      <li>
+        <p><b><a href="itms-books://root/">iBooks #1</a></b></p>
+      </li>
+      <li>
+        <p><b><a href="ibooks://root/">iBooks #2</a></b></p>
+      </li>
+      <li>
+        <p><b><a href="message://root/">Mail</a></b></p>
+      </li>
+ 
+        <p><b><a href="music://root/">Music #1</a></b></p>
+        <p><b><a href="itsradio://root/">Music #2</a></b></p>
+        <p><b><a href="itunesradio://root/">Music #3</a></b></p>
+        <p><b><a href="audio-player-event://root/">Music #4</a></b></p>
 
-        <p><b><a href="music:">Launch Music App #1</a></b></p>
-        <p><b><a href="itsradio:">Launch Music App #2</a></b></p>
-        <p><b><a href="itunesradio:">Launch Music App #3</a></b></p>
-        <p><b><a href="audio-player-event:">Launch Music App #4</a></b></p>
+        <p><b><a href="sms://root/">Messages #1</a></b></p>
+        <p><b><a href="sms-private://root/">Messages #2</a></b></p>
+        <p><b><a href="itms-messages://root/">Messages #3</a></b></p>
+        <p><b><a href="itms-messagess://root/">Messages #4</a></b></p>
+
+        <p><b><a href="photos-redirect://root/">Photos #1</a></b></p>
+        <p><b><a href="photos-navigation://root/">Photos #2</a></b></p>
+      
+        <p><b><a href="facetime-prompt://root">FaceTime #1</a></b></p>
+        <p><b><a href="facetime-audio-prompt://root">FaceTime #2</a></b></p>
+
+        <p><b><a href="tel://root">InCallService #1</a></b></p>
+        <p><b><a href="telprompt://Prompt">InCallService #2</a></b></p>
+
+        <p><b><a href="iadoptout://root">Workbench Ad Tester #1</a></b></p>
+        <p><b><a href="workbenchadtester://root">Workbench Ad Tester #2</a></b></p>
+
+        <p><b><a href="x-apple-health://root">Health #1</a></b></p>
+        <p><b><a href="iadoptout://root">Health #2</a></b></p>
+
+        <p><b><a href="fmip1://root">Find My iPhone</a></b></p>
+
+        <p><b><a href="applefeedback://root">Apple Feedback</a></b></p>
+
+        <p><b><a href="diagnostics://root">Apple Diagnostics #1</a></b></p>
+        <p><b><a href="diags://root">Apple Diagnostics #2</a></b></p>
+
+        <p><b><a href="adplatforms://root">Ad Platforms Diagnostics</a></b></p>
+
+        <p><b><a href="appleprintcenter://root">Apple Print Center</a></b></p>
+
+        <p><b><a href="shoebox://root">Wallet</a></b></p>
+
         	</br>
 	   </li>
 	</ul>   	 
